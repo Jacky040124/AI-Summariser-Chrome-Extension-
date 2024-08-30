@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Notion Extension",
+  "version": "1.0.0",
+  "description": "An extension that summarise webpage content and save to notion",
+  "icons": {"32" : "icon-32.png"},
+
+  "background": {
+  },
+
+  
+  "action": {
+    "default_popup": "index.html"
+  },
+
+  "permissions": ["scripting", "activeTab"
+  ],
+
+  "host_permissions": ["http://*/*", "https://*/*"
+  ]
+
+}
